@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/arm 2.6.39.4 Kernel Configuration
-# Sun Jan  1 18:28:03 2012
+# Thu Jan  5 23:17:16 2012
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -853,7 +853,7 @@ CONFIG_BT_HCIUART_H4=y
 # CONFIG_BT_HCIUART_ATH3K is not set
 CONFIG_BT_HCIUART_LL=y
 # CONFIG_BT_HCIBCM203X is not set
-# CONFIG_BT_BLUESLEEP is not set
+CONFIG_BT_BLUESLEEP=y
 # CONFIG_BT_HCIBPA10X is not set
 # CONFIG_BT_HCIBFUSB is not set
 # CONFIG_BT_HCIVHCI is not set
