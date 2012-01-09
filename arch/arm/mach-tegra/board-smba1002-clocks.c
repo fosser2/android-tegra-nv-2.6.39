@@ -192,7 +192,7 @@ static __initdata struct tegra_clk_init_table smba1002_clk_init_table[] = {
 #define CDEV1 "clk_dev1"
 #define CDEV2 "clk_dev2"
 #endif
-#       ifdef ADAM_48KHZ_AUDIO
+#       ifdef SMBA1002_48KHZ_AUDIO
 //        { CDEV1,   NULL /*"pll_a_out0"*/,12288000,  false},             /* used as audio CODEC MCLK */
         { CDEV1,   NULL /*"pll_a_out0"*/,0,  true},             /* used as audio CODEC MCLK */
 #       else
