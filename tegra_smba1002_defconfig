@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/arm 2.6.39.4 Kernel Configuration
-# Sun Jan  8 20:03:15 2012
+# Tue Jan 10 23:49:14 2012
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -1009,7 +1009,7 @@ CONFIG_ANDROID_PMEM=y
 # CONFIG_ENCLOSURE_SERVICES is not set
 # CONFIG_KERNEL_DEBUGGER_CORE is not set
 # CONFIG_APDS9802ALS is not set
-# CONFIG_ISL29003 is not set
+CONFIG_ISL29003=y
 # CONFIG_ISL29020 is not set
 # CONFIG_SENSORS_TSL2550 is not set
 # CONFIG_SENSORS_BH1780 is not set
@@ -2437,7 +2437,7 @@ CONFIG_IIO=y
 #
 # CONFIG_SENSORS_TSL2563 is not set
 # CONFIG_SENSORS_ISL29018 is not set
-CONFIG_SENSORS_ISL29023=y
+# CONFIG_SENSORS_ISL29023 is not set
 # CONFIG_SENSORS_ISL29028 is not set
 
 #
