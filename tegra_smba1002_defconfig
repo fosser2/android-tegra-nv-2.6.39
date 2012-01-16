@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/arm 2.6.39.4 Kernel Configuration
-# Sun Jan 15 14:48:58 2012
+# Sun Jan 15 23:13:16 2012
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -2182,7 +2182,7 @@ CONFIG_USB_GADGET_DUALSPEED=y
 # CONFIG_USB_GADGETFS is not set
 # CONFIG_USB_FUNCTIONFS is not set
 # CONFIG_USB_FILE_STORAGE is not set
-# CONFIG_USB_MASS_STORAGE=y
+# CONFIG_USB_MASS_STORAGE is not set
 # CONFIG_USB_G_SERIAL is not set
 # CONFIG_USB_MIDI_GADGET is not set
 # CONFIG_USB_G_PRINTER is not set
