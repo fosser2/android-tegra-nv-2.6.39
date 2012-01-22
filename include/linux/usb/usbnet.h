@@ -47,6 +47,7 @@ struct usbnet {
 	u32			xid;
 	u32			hard_mtu;	/* count any extra framing */
 	size_t			rx_urb_size;	/* size for rx urbs */
+    int         rx_queue_enable;
 	struct mii_if_info	mii;
 
 	/* various kinds of pending driver work */
@@ -229,3 +230,4 @@ extern void usbnet_get_drvinfo(struct net_device *, struct ethtool_drvinfo *);
 extern int usbnet_nway_reset(struct net_device *net);
 
 #endif /* __LINUX_USB_USBNET_H */
+
