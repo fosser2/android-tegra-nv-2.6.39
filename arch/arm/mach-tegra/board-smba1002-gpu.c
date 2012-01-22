@@ -195,24 +195,24 @@ static struct tegra_fb_data smba1002_fb_data = {
 #if defined(SMBA1002_1920x1080HDMI)
 
 /* Frame buffer size assuming 16bpp color and 2 pages for page flipping */
-#define SMBA1002_FB_HDMI_SIZE TEGRA_ROUND_ALLOC(1920*1080*(16/8)*2)
+#define SMBA1002_FB_HDMI_SIZE TEGRA_ROUND_ALLOC(1920*1080*(32/8)*2)
 
 static struct tegra_fb_data smba1002_hdmi_fb_data = {
 	.win		= 0,
 	.xres		= 1920,
 	.yres		= 1080,
-	.bits_per_pixel	= 16,
+	.bits_per_pixel	= 32,
 };
 
 #else
 
-#define SMBA1002_FB_HDMI_SIZE TEGRA_ROUND_ALLOC(1280*720*(16/8)*2)
+#define SMBA1002_FB_HDMI_SIZE TEGRA_ROUND_ALLOC(1280*720*(32/8)*2)
 
 static struct tegra_fb_data smba1002_hdmi_fb_data = {
 	.win		= 0,
 	.xres		= 1280,
 	.yres		= 720,
-	.bits_per_pixel	= 16,
+	.bits_per_pixel	= 32,
 };
 #endif
 
