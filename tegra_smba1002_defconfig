@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux/arm 2.6.39.4 Kernel Configuration
-# Sun Jan 22 23:55:48 2012
+# Wed Jan 25 09:18:10 2012
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -1119,7 +1119,7 @@ CONFIG_DUMMY=y
 # CONFIG_BONDING is not set
 # CONFIG_MACVLAN is not set
 # CONFIG_EQUALIZER is not set
-# CONFIG_TUN is not set
+CONFIG_TUN=m
 # CONFIG_VETH is not set
 CONFIG_MII=y
 # CONFIG_PHYLIB is not set
